@@ -1,0 +1,42 @@
+Quote Favorites Web App
+This is a web application that allows users to search for famous quotes by authors and save their favorite quotes to view later.
+
+Technologies Used
+Node.js: A JavaScript runtime environment for executing server-side code.
+Express.js: A web application framework for Node.js.
+MySQL: A relational database management system used to store favorite quotes.
+Bootstrap 5: A front-end framework for building responsive and mobile-first websites.
+Git: A distributed version control system for tracking changes to code.
+Installation
+Clone the repository to your local machine:
+
+bash
+
+git clone https://github.com/your-username/quote-favorites-web-app.git
+Install dependencies:
+
+bash
+
+cd quote-favorites-web-app
+npm install
+Set up the MySQL database:
+
+Create a MySQL database named quotes.
+Update the database configuration in config/dbConfig.js with your MySQL username and password.
+Start the server:
+
+
+node server.js
+Open your web browser and navigate to http://localhost:3000/ to access the application.
+
+Usage
+Search Page: Enter keywords to search for quotes by authors. Click on the favorite button to save a quote to your favorites.
+Favorites Page: View all your saved favorite quotes.
+Directory Structure
+arduino
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
